@@ -1,13 +1,3 @@
-window.requestAnimationFrame ||= 
-	window.webkitRequestAnimationFrame || 
-	window.mozRequestAnimationFrame    || 
-	window.oRequestAnimationFrame      || 
-	window.msRequestAnimationFrame     || 
-	(callback, element) -> 
-		window.setTimeout( 
-			-> callback(+new Date()), 
-			1000 / 60 )
-
 $ ->
 	canvas = $("#experiment")
 
@@ -74,7 +64,7 @@ $ ->
 	# box = new ShaderInputs
 	angle = 0.0
 
-	gui.showStats($("#experiment"))
+	gui.showStats()
 	render = ->
 			window.requestAnimationFrame(render, canvas)
 			gui.beginStats()
