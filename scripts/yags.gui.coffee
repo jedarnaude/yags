@@ -1,3 +1,5 @@
+# Provides a simplified over https://github.com/mrdoob/stats.js/ and https://code.google.com/p/dat-gui/
+
 class YAGS.GUI
 	constructor: ->
 		@render = new dat.GUI()
