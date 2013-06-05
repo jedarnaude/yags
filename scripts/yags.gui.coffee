@@ -23,8 +23,8 @@ class YAGS.GUI
 
 	addWidget: (type, name, value, folder) ->
 		if folder
-			@folders[name] = @render.addFolder(name) if not @folders.hasOwnProperty(name)
-			target = @folders[name]
+			@folders[folder] = @render.addFolder(folder) if not @folders.hasOwnProperty(folder)
+			target = @folders[folder]
 		else 
 			target = @render
 
