@@ -1,4 +1,3 @@
-yags
-====
+# Yet Another GL SandBox
 
-webGL GLSL sandbox
+WebGL sandbox utilities for my experiments, not meant for anything else but a repo for learning utils while I play around.

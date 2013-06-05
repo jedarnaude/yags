@@ -34,4 +34,4 @@ class YAGS.GUI
 			when "button" then target.add(@components, name)
 
 	getWidget: (name) ->
-		@components[name]
+		@components[name]		
